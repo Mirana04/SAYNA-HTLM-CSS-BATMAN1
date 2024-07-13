@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+}
+:root{
+    --yellow-color: #FFFF00;
+    --yellow-light :#f8f184;
+    --blue-color:#19587D ;
+    --white-color:#fff;
+    --gradient-white: #EDDEBF;
+    --gradient-red: #890008;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Rajdhani';
+    font-size: 35px;
+    font-weight: 400; 
+    font-display:;
+    width: 80%;
+    margin: 0 auto;
+
+}
+button{
+    font-family: 'Rajdhani';
+    font-size: 20px;
+    font-weight: 400; 
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/*Desing du barre de navigation*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul a{
+    color:var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Rajdhani';
+    text-decoration: none;
+
+}
+
+nav a :hover{
+    color: #FFFF00;
+}
+ 
+/*design du partie en tete  hero*/
+#hero{
+    background-image: url(Assets/Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    
+}
+.content{
+   display: flex; 
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+#hero .titre{
+    margin: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    font-size: 22px;
+    padding: 3px 50px;
+    background: linear-gradient(
+        80deg,var(--gradient-white),var(--gradient-red)
+    );
+}
+
+/*design de la section batman personnage*/        
+.batman-personnage{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.ennemis{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.allies{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.fleche{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+     margin: auto;
+}
+#hero .fleche{
+    display: block;
+    margin: 0 auto;
+    margin-top: 285px;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
